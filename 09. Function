@@ -14,3 +14,13 @@ from math import sqrt
 
 print sqrt(13689)
         
+ #
+ # Built-In Functions
+ #
+        
+        
+def distance_from_zero(zero):
+    if type(zero) == int or type(zero) == float:
+        return abs(zero)
+    else:
+        return "Nope"
