@@ -6,4 +6,11 @@ def shut_down(s):
     else:
         return "Sorry"
         
+ #
+ # Module
+ #
+ 
+from math import sqrt
+
+print sqrt(13689)
         
