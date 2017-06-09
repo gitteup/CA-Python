@@ -22,3 +22,21 @@ if len(original) > 0 and original.isalpha():
 
 else: 
     print "empty"
+    
+#    
+# Pig Latin Complete:
+# 
+    
+    
+pyg = 'ay'
+
+original = raw_input('Enter a word:')
+
+if len(original) > 0 and original.isalpha():
+    word = original.lower()
+    first = word[0] # Copies first letter
+    new_word  = "%s%s%s" % (word,first,pyg)
+    new_word = new_word[1:] # pops first letter
+    print new_word
+else:
+    print 'empty'
