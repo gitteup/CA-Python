@@ -2,3 +2,17 @@ my_list = [1,9,3,8,5,7]
 
 for number in my_list:
   print  number * 2   # Your code here
+  
+  
+  #
+  # Loop with sq & sort
+  #
+  
+start_list = [5, 3, 1, 2, 4]
+square_list = []
+
+# Your code here!
+for list in start_list:
+    square_list.append(list ** 2)
+    square_list.sort()
+print square_list
