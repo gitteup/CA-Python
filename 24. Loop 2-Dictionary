@@ -6,3 +6,4 @@ for x in prices:
     print x
     print "price: %s" % prices[x]
     print "stock: %s" % stock[x]
+    print
