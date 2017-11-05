@@ -78,3 +78,19 @@ def total(numbers):
   for number in numbers:
     result = result + number
   return result
+  
+  #
+  # Using strings in lists in functions
+  #
+  
+  n = ["Michael", "Lieberman"]
+# Add your function here
+
+def join_strings(words):
+  result = ""
+  for word in words:
+    result += word
+  return result
+
+print join_strings(n)
+  
